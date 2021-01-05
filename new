@@ -1,0 +1,18 @@
+def new():
+    column = []
+    l = [a, a, b, b, c, c]
+    # y = [alien1,alien2,alien3]
+    r = 0
+    for a in range(ALIEN_ROWS):
+        row= []
+        c = 0
+        for b in range(ALIENS_IN_ROW):
+            row.append(l[r])
+            l.append(l[r])
+            x = x + x
+        column.append(row[c])
+        y = y - ALIEN_V_SEP
+        c = c + 1
+        r = r + 1
+    print (column)
+    self._aliens = column
